@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="298dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:text="QuizApp"
+        android:textColor="#210A61"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="13dp"
+        android:background="?android:attr/listDivider" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="723dp"
+        android:layout_marginTop="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="NOTE"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="1:  Once You click Next you cannot undo"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="2: There will be 10 Questions per topic"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="3: You can select the below topics or start a random quiz from the topics "
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/rand"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:layout_marginTop="30dp"
+                android:text="Start a random quiz"
+                android:textColor="#062833" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="20dp"
+                android:text="Select the topic"
+                android:textColor="#0D144C"
+                android:textSize="34sp" />
+
+            <Button
+                android:id="@+id/Q1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="50dp"
+                android:text="Android Studio" />
+
+            <Button
+                android:id="@+id/Q2"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:layout_marginTop="20dp"
+                android:text="Science" />
+
+            <Button
+                android:id="@+id/Q3"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:layout_marginTop="20dp"
+                android:text="Maths" />
+
+            <Button
+                android:id="@+id/Q4"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:layout_marginTop="20dp"
+                android:text="History" />
+
+            <Button
+                android:id="@+id/Q5"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:layout_marginTop="20dp"
+                android:text="Geography" />
+
+            <Button
+                android:id="@+id/Q6"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:layout_marginTop="20dp"
+                android:text="Indian Epics" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

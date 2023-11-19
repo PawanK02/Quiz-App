@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Final">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_marginLeft="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QUIZAPP"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:textColor="#FF0000"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="436dp"
+        android:layout_marginLeft="40dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="30dp"
+        android:text="TextView"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="40dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="30dp"
+        android:text="TextView"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/go"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go To Home Page" />
+</LinearLayout>
